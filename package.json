@@ -6,6 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index.js",
     "start": "node index.js",
+    "migrate:create": "node-pg-migrate create",
     "migrate": "node-pg-migrate up -c migration.config.js"
   },
   "author": "",

@@ -17,7 +17,9 @@ DROP DATABASE express_1;
 ## migrations
 
 ```
-npm run migrate create "create table authentications"
+npm run migrate:create create-users-table
+or
+npm run migrate:create "create table users"
 
 npm run migrate
 ```
